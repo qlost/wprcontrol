@@ -6,13 +6,16 @@ description = "Rust bindings for the Windows Performance Recorder (WPR) Control 
 license = "MIT"
 
 [dependencies.windows-core]
-version = "0.61"
+git = "https://github.com/JustRustThings/windows-rs"
+branch = "stuff-0.62.2"
 
 [dependencies.windows-link]
-version = "0.2.1"
+git = "https://github.com/JustRustThings/windows-rs"
+branch = "stuff-0.62.2"
 
 [dependencies.windows]
-version = "0.61"
+git = "https://github.com/JustRustThings/windows-rs"
+branch = "stuff-0.62.2"
 features = [
     "Win32_Foundation",
     "Win32_System_Com",
@@ -21,4 +24,5 @@ features = [
 ]
 
 [build-dependencies.windows-bindgen]
-version = "0.61"
+git = "https://github.com/JustRustThings/windows-rs"
+branch = "stuff-0.62.2"
